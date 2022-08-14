@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "test",
+    "start": "node ./src/main.js",
     "start:dev": "nodemon ./src/main.js",
     "docker:up": "docker-compose up -d",
     "docker:down": "docker-compose down"
