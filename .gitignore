@@ -1,7 +1,8 @@
 *.idea
-/node_modules
-/.vs/
-/.vscode
+.vs/
+.vscode
 
+node_modules
 database_data
 .env
+file-storage

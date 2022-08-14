@@ -14,7 +14,7 @@ export default class AuthController {
       password,
     });
 
-    res.status(StatusCodes.OK).json(newUser);
+    res.status(StatusCodes.CREATED).json(newUser);
   };
 
   login = async (req, res) => {
@@ -33,7 +33,7 @@ export default class AuthController {
 
     await this.authService.logout({ refreshToken });
 
-    res.status(StatusCodes.OK).send();
+    res.status(StatusCodes.NO_CONTENT).send();
   };
 
   refreshToken = async (req, res) => {

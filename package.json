@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "test",
-    "start:dev": "cross-env NODE_ENV=dev nodemon ./src/main.js",
+    "start:dev": "nodemon ./src/main.js",
     "docker:up": "docker-compose up -d",
     "docker:down": "docker-compose down"
   },
@@ -29,12 +29,12 @@
     "ajv-formats": "^2.1.1",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
-    "cross-env": "^7.0.3",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "express-async-handler": "^1.2.0",
     "http-status-codes": "^2.2.0",
     "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
     "mysql2": "^2.3.3",
     "node-cron": "^3.0.1",
     "uuid": "^8.3.2"
