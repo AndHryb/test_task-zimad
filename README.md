@@ -5,5 +5,7 @@
 
 **Start local environment:**
  run command:
-`npm run docker:up`
-`npm start`
+
+`$ npm run docker:up`
+
+`$ npm start`
