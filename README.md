@@ -8,4 +8,4 @@
 
 `$ npm run docker:up`
 
-`$ npm start`
+`$ npm run start`
